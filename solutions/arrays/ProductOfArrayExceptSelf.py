@@ -15,7 +15,6 @@ class Solution:
             rightProduct *= nums[len(nums)- 1-i]
             leftArr.append(leftProduct)
             leftProduct *= nums[i]
-            reversed(rightArr)
 
         for i in range(len(nums)):
             res.append(leftArr[i]*rightArr[i])
